@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice site</title>
+
+    <link rel="stylesheet" href="assets/css/my_style.css">
+    <link rel="stylesheet" href="assets/css/my-animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <meta property="og:description" content="Practce Site............">
+    <meta property="og:title" content="Practice Site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://portfolio-bfcad.web.app/#">
+    <meta name="twitter:card" content="summary">    
+
+</head>
+<body>
+    <header class="l-header fixed-nav">
+        <div class="l-header-inner">
+            <h1 class="l-product-logo">
+                <a href="#" target="_self">
+                    <img src="assets/img/icons/logo.png" alt="icon">
+                </a>
+            </h1>
+            <!-- Navigation toggle button for smartphone-->
+            <button class="nav-toggle-button outside"  id="nav-toggle-button">
+                <img src="assets/img/icons/menu.png" class="menu-bars">
+                <img src="assets/img/icons/close.png" class="menu-close">
+            </button>
+            <nav class="l-header__nav-top">
+                <h1 class="l-product-logo">
+                    <a href="#">
+                        <img src="assets/img/icons/logo.png" alt="icon">
+                    </a>
+                </h1>
+                <ul>
+                    <li><a href="#" target="_self">link1</a></li>
+                    <li><a href="#" target="_self">link2</a></li>
+                    <li><a href="#" target="_self">link3</a></li>
+                </ul>
+            </nav>
+            <div class="black-bg" id="js-black-bg"></div>
+        </div>
+        
+    </header>
+
+    <main>
+        <section>
+            <div class="p-grid__view-first">
+                <div>
+                    <h2>Yuta's Site</h2>
+                    <p>WEB ENGINEER</p>
+                    <a class="p-btn-round p-icon__arrow-next" role="button" href="#">contact</a>
+                </div>
+                <img src="assets/img/view/first-view.jpeg" alt="Sea coast in RJ">
+            </div>
+        </section>
+            <div class="philosophy">
+                <h3 class="animate__animated" data-animate="animate__fadeInDown">"継続は力なり"</h3>
+            </div>
+        <section>
+           
+        </section>
+
+
+        <section class="c-section c-bg-primary">
+            <div class="c-section-wrapin">
+                <h2 class="p-headline__top">Service</h2>
+                <hr class="c-section__line">
+                <div class="module-spacer-small"></div>
+                <a class="p-btn-round p-icon__arrow-next" role="button" href="#">Skills</a>
+                <div class="module-spacer-medium"></div>
+                <div class="p-grid__list">
+                    <article class="p-grid__list-item-floated">
+                        <h3>Webサイト制作</h3>
+                        <p>hogehogehoge</p>
+                    </article>
+                    <article class="p-grid__list-item-floated">
+                        <h3>Webアプリ開発</h3>
+                        <p>hogehogehoge</p>
+                    </article>
+                    <article class="p-grid__list-item-floated">
+                        <h3>自動化ツール開発</h3>
+                        <p>hogehogehoge</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-grid__list-item">slide1</div>
+                    <div class="swiper-slide p-grid__list-item">slide2</div>
+                    <div class="swiper-slide p-grid__list-item">slide3</div>
+                    <div class="swiper-slide p-grid__list-item">slide4</div>
+                    <div class="swiper-slide p-grid__list-item">slide5</div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </section>
+    </main>
+
+<footer  class="l-footer">
+    <div class="l-footer-inner">
+        <section class="logo-area">
+            <h1 class="product-logo">
+                <a href="#"><img src="assets/img/icons/logo.png" alt="icons"></a>
+            </h1>
+            <a class="p-btn-round p-icon__arrow-next" role="button" href="#">何を学びたい？</a>
+        </section>
+
+        <section class="sitemap">
+            <ul class="footer-links">
+                <li class="p-accordion">
+                    <input type="checkbox" id="accordion-about">
+                    <label for="accordion-about">About me</label>
+                    <ul class="p-accordion__items">
+                        <a href="#">
+                            <li>Career</li>
+                        </a>
+                        <a href="#">
+                            <li>Skills</li>
+                        </a>
+                    </ul>
+                </li>
+                <li class="p-accordion">
+                    <input type="checkbox" id="accordion-about2">
+                    <label for="accordion-about2">Service</label>
+                    <ul class="p-accordion__items2">
+                        <a href="#">
+                            <li>Webページ制作</li>
+                        </a>
+                        <a href="#">
+                            <li>Webアプリ開発</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="foot">
+            <ul>
+                <li><a href="#">ご利用規約</a></li>
+                <li><a href="#">プライバシーポリシー</a></li>
+            </ul>
+       </section>
+
+    </div>
+</footer>
+
+<script src="assets/js/my-menu.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/my-carousel.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="assets/js/my-animate.js"></script>
+
+</body>
+</html>

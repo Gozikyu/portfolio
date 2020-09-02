@@ -1,0 +1,101 @@
+
+.l-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.l-header__logo img{
+    height: 3rem;
+}
+
+.l-header .l-header__logo{
+    display: block;
+    float: left;
+    margin: 10px 40px 0 10px;
+}
+
+.l-header nav .l-header__logo{
+    display: none;
+}
+
+.l-header nav button{
+    margin-top: 20px;
+}
+
+.l-header nav button .menu-open{
+    display: block;
+}
+
+.l-header nav button .menu-close{
+    display: none;
+}
+
+.l-header nav ul{
+    display: none;
+    margin: 0;
+    padding: 20px 0;
+}
+
+
+/*nav-open*/
+.nav-open .l-header nav button .menu-open{
+    display: none;
+}
+
+.nav-open .l-header nav button .menu-close{
+    display: block;
+}
+
+.nav-open .l-header nav{
+    background-color: #fff;
+    width: 80%;
+    height: 100vh;
+    transition: all 0.5s ease;
+    position: fixed;
+    top: 0;
+    box-shadow:rgba(0,0,0,.5);
+    z-index: 1100;
+
+}
+
+.nav-open .black-bg{
+    background-color: rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vh;
+    z-index: 1000;
+}
+
+.nav-open nav ul{
+    display: block;
+    margin-left: 10px;
+}
+
+.nav-open nav .l-header__logo{
+    display: block;
+}
+
+/*main*/
+main .block{
+    display: block;
+    background-color: olive;
+    height: 3000px;
+}
+
+@media screen and (min-width:1024px){
+    .l-header nav button{
+        display: none;
+    }
+
+    .l-header nav ul{
+        display: block;
+    }
+
+    .l-header nav li{
+        display: inline-block;
+        margin-left: 2rem;
+    }
+}
