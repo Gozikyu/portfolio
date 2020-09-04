@@ -21,6 +21,16 @@ li {
   margin: 0 auto;
 }
 
+.header-title h1 {
+  color: #000;
+  text-align: center;
+  font-size: 2rem;
+  background-color: rgba(43, 187, 216, 0.2);
+  width: 60%;
+  margin: 3rem auto 1rem auto;
+  border-radius: 2rem;
+}
+
 /*header*/
 .l-header {
   transition: top 0.4s ease;
@@ -218,6 +228,32 @@ li {
   text-align: left;
 }
 
+.app {
+  text-align: center;
+}
+
+.app-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app-image {
+  width: 90%;
+}
+
+.app-image img {
+  width: 100%;
+}
+
+.app-text {
+  width: 100%;
+}
+
+.app p {
+  margin: 0;
+}
+
 /*service*/
 
 .c-section {
@@ -410,6 +446,18 @@ li {
 
   .inner {
     max-width: 1024px;
+  }
+
+  .app-image {
+    width: 50%;
+  }
+
+  .app-image img {
+    width: 100%;
+  }
+
+  .app-text {
+    width: 50%;
   }
 
   /*carousel*/
