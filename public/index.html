@@ -27,10 +27,10 @@
           <img src="assets/img/icons/close.png" class="menu-close" />
         </button>
         <nav class="l-header__nav-top">
-          <ul>
-            <li><a href="#" target="_self">About me</a></li>
-            <li><a href="#" target="_self">link2</a></li>
-            <li><a href="#" target="_self">link3</a></li>
+          <ul class="header-menu">
+            <li href="#about-me">About me</li>
+            <li href="#react">react</li>
+            <li href="#react-redux">react-redux</li>
           </ul>
         </nav>
         <div class="black-bg" id="js-black-bg"></div>
@@ -42,7 +42,10 @@
         <div class="p-grid__view-first">
           <div>
             <h2>Yuta's Portfolio</h2>
-            <a class="p-btn-round p-icon__arrow-next" role="button" href="#"
+            <a
+              class="p-btn-round p-icon__arrow-next"
+              role="button"
+              href="#about-me"
               >Read More</a
             >
           </div>
@@ -53,7 +56,11 @@
       <div class="about-me">
         <div class="inner">
           <div class="header-title">
-            <h1 class="animate__animated" data-animate="animate__fadeInDown">
+            <h1
+              class="animate__animated"
+              id="about-me"
+              data-animate="animate__fadeInDown"
+            >
               About me
             </h1>
           </div>
@@ -92,7 +99,11 @@
       <section class="app react">
         <div class="inner">
           <div class="header-title">
-            <h1 class="animate__animated" data-animate="animate__fadeInDown">
+            <h1
+              class="animate__animated"
+              id="react"
+              data-animate="animate__fadeInDown"
+            >
               React
             </h1>
           </div>
@@ -110,7 +121,11 @@
       <section class="app react-redux">
         <div class="inner">
           <div class="header-title">
-            <h1 class="animate__animated" data-animate="animate__fadeInDown">
+            <h1
+              class="animate__animated"
+              id="react-redux"
+              data-animate="animate__fadeInDown"
+            >
               React-Redux
             </h1>
           </div>
@@ -141,5 +156,6 @@
     <script src="assets/js/my-carousel.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="assets/js/my-animate.js"></script>
+    <script src="assets/js/scroll.js"></script>
   </body>
 </html>
