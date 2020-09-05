@@ -1,18 +1,15 @@
-$(window).on("load scroll", function () {
-  //animatedのclassを持った要素をセレクタに指定
-  const elem = $(".animated");
+$(window).on("load scroll", function (){
 
-  elem.each(function () {
-    //data属性からアニメーション名を取得
+  const elem = $(".animate__animated");
+  
+  elem.each(function (){
     const isAnimate = $(this).data("animate");
-    // Get position of the element
     const elemOffset = $(this).offset().top;
     const scrollPosition = $(window).scrollTop();
     const windowsHeight = window.innerHeight;
 
-    // Fired animation when the element on the bottom of the window
-    if (scrollPosition > elemOffset - (windowsHeight + 96)) {
+    if(scrollPosition + windowsHeight -100 > elemOffset){
       $(this).addClass(isAnimate);
     }
   });
-});
+})

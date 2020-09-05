@@ -3,7 +3,7 @@ const menuModule = (() => {
         toggleNav: () => {
             document.getElementById('nav-toggle-button').addEventListener('click', event => {
                 const classes = document.querySelector('html').classList
-                if (classes.value.includes('nav-open')) {
+                if (classes.contains('nav-open')) {
                     classes.remove('nav-open')
                 } else {
                     classes.add('nav-open')
