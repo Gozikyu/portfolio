@@ -251,6 +251,9 @@ li {
 
 .app-text {
   width: 100%;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  text-align: left;
 }
 
 .app p {
